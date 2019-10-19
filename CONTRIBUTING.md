@@ -7,3 +7,5 @@
 - Styling / code can be pretty, ugly or stupid, big or small as long as it works
 - Add your name to the contributors.html file
 - Add images
+
+- Added glossy narbar 
