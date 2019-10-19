@@ -167,12 +167,17 @@ a:hover {
 
 .index #invert-btn {
   transition: all .4s;
+  width: 50%;
+  height: 57px !important;
+  border-radius: 40px;
+  margin: 0 30px;  
 }
 
 .index #invert-btn:hover {
   transform: scale(1.2);
   background-color: #20c997;
   color: black;
+  width: 50%;  
 }
 
 .index .btn-outline-danger:hover {
@@ -737,18 +742,20 @@ div#content div#contribution-rules ul li {
 /* Youtube Subscribe Styling End  */
 
 #twist {
-  margin-top: 50px;
+  margin-top: 22px;
   margin-bottom: 50px;
   background-color: #ff0844;
   color: white;
   border-radius: 2rem;
   font-weight: 600;
   padding: 0.75rem 4rem 0.75rem 4rem;
-  border-radius: 2rem;
+  border-radius: 40px;
   outline: none;
   border: none;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
   cursor: pointer;
+  width: 50%;
+  margin: 0 30px;
 }
 
 .video-border {
@@ -771,7 +778,9 @@ div#content div#contribution-rules ul li {
   }
 
   .index .twist-btn {
-    margin-top: 20px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
   }
 }
 

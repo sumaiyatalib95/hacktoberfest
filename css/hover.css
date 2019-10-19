@@ -263,10 +263,11 @@
   -webkit-transition-property: transform;
   transition-property: transform;
 }
-.hvr-rotate:hover, .hvr-rotate:focus, .hvr-rotate:active {
+.hvr-rotate:hover {
   -webkit-transform: rotate(4deg);
   transform: rotate(4deg);
 }
+
 
 /* Grow Rotate */
 .hvr-grow-rotate {
@@ -280,7 +281,7 @@
   -webkit-transition-property: transform;
   transition-property: transform;
 }
-.hvr-grow-rotate:hover, .hvr-grow-rotate:focus, .hvr-grow-rotate:active {
+.hvr-grow-rotate:hover {
   -webkit-transform: scale(1.1) rotate(4deg);
   transform: scale(1.1) rotate(4deg);
 }

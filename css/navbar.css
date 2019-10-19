@@ -1,5 +1,9 @@
 .navbar {
   padding: 0.5rem 2rem;
+  background-color: rgba(255, 255, 255, .15) !important;
+  backdrop-filter: blur(5px) !important;
+  background-color: rgba(255, 255, 255, .5) !important;
+  backdrop-filter: blur(20px) !important;
 }
 nav {
   background-color: black;
@@ -23,7 +27,8 @@ nav {
   margin: 0 10px !important;
 }
 .navbar-light .navbar-nav .active {
-  background-color: #f1ffc5;
+  border-bottom: 3px solid #ff0844;
+  background: transparent !important; 
 }
 
 .navbar-light .navbar-nav .active> .nav-link {
